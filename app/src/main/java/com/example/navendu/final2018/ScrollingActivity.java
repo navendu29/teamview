@@ -21,7 +21,8 @@ public class ScrollingActivity extends AppCompatActivity {
 
         ImageView ii=(ImageView)findViewById(R.id.jk);
         Picasso.with(this)
-                .load("https://www.nativeplanet.com/img/2016/08/1indiagate-23-1471954379.jpg")
+                .load(R.drawable.iiii
+                )
 
                 .into(ii);
 

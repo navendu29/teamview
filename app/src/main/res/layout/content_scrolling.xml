@@ -66,17 +66,14 @@
 
             android:textColor="#ffffff"
             android:textSize="25dp"
-            android:textStyle="italic"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent" />
 
 
-
-
         <TextView
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -86,20 +83,96 @@
             android:text="Delhi Technological University"
             android:textColor="#ffffff"
             android:textSize="25dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.844" />
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </android.support.constraint.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="About Engifest"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Thrill, joy and ecstasy are words that are synonymous with ENGIFEST,the Annual Cultural Fest of Delhi Technological University
+(formerly Delhi College of Engineering). Engifest is one of the oldest
+college cultural fests of the country. It was started way back in 1974
+by a bunch of enthusiastic DCEians.\n\n
+In February 2018, the fest will throw open its doors and welcome more than 40,000 enthusiastic students
+and professionals from all walks of life. ENGIFEST is a four day
+extravaganza; a celebration of sorts; a dense, fun-filled embodiment
+of the energy and conviviality which characterizes college life;
+a festival oozing with fun, vibrancy and entertainment. It is a product
+of dreams ambition and tireless hard work, a true testimony to the
+indomitable spirit, liveliness and sheer energy of the
+ youth."></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <ImageView
 
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:scaleY="2"
+        android:layout_marginTop="10dp"
+
         android:src="@drawable/dtu"
 />
 
@@ -114,6 +187,10 @@
         android:layout_marginRight="5dp"
         >
 
+
+
+
+
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -126,11 +203,11 @@
                 android:layout_marginEnd="8dp"
 
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="28dp"
                 android:src="@drawable/ta"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.462"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -153,6 +230,24 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/profile_image" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="3dp"
+
+
+                android:text="With people steping in from the entire Delhi and the North India
+DTU is floodd with performers, enthusiasts and spectators to witness this flabbergasting fest
+ We don't believe in bragging but a fest is a fest by the crowd it gathers
+and we stand high with 70,000+ head count last year"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
 
         </android.support.constraint.ConstraintLayout>
@@ -184,7 +279,6 @@ android:layout_marginLeft="5dp"
                 android:layout_marginEnd="8dp"
 
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="28dp"
                 android:src="@drawable/cal"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="2dp"
@@ -212,7 +306,21 @@ android:layout_marginLeft="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/profile_image1" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
 
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="3dp"
+
+
+                android:text="DANCE,DRAMA, LITERATURE, MUSIc. You name it, we have it.From competitions between enthusiastic participants to engaging the crowd,ENGIFEST promises all.We have tie up with EMBASSIES and programs featuring international artists which are sure to get you stunned "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
 
@@ -246,7 +354,6 @@ android:layout_marginLeft="5dp"
                 android:layout_marginEnd="8dp"
 
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="28dp"
                 android:src="@drawable/mic1"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="1dp"
@@ -272,6 +379,34 @@ android:layout_marginLeft="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="122dp"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:paddingRight="10dp"
+
+                android:paddingLeft="3dp"
+                android:layout_marginRight="10dp"
+
+
+                android:text="With the likes of SUNIDHI CHAUHAN,LAGORI and NUCLEYA added to its name, ENGIFEST promises for yet another dumbfounding line up.We deliver what we promise and this year too ENGIFEST would repeat history with its star nights."
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+
 
 
 
