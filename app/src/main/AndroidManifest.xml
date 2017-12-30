@@ -11,12 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".dteam">
+
+        </activity>
+        <activity android:name=".EngiteamActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +26,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".EngiteamActivity">
+        <activity android:name=".splashscreen">
 
         </activity>
     </application>
