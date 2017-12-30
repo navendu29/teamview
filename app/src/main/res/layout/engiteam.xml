@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/back1"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical"
+        tools:context="com.example.navendu.final2018.dteam">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cultural council"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20dp"
+    android:id="@+id/text"
+    android:textColor="#ffffff"
+    android:textAllCaps="true"
+
+    />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="210dp">
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+
+        app:flipDuration="500"
+
+        app:flipEnabled="true"
+        app:flipOnTouch="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+        <LinearLayout
+android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="48dp"
+                android:text="Parteek singhal"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cultural secretary"
+                android:id="@+id/t2"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="true"
+                android:textStyle="bold"             android:textColor="#ffffff"
+
+                />
+
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/i1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/parteek" />
+
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="210dp">
+
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+
+                app:flipDuration="500"
+
+                app:flipEnabled="true"
+                app:flipOnTouch="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:layout_marginTop="48dp"
+                        android:text="nikhil arora"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Treasurer"
+                        android:layout_gravity="center_horizontal"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:id="@+id/t4"
+                        android:textColor="#ffffff"
+
+                        />
+
+                </LinearLayout>
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/i2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/nikhil" />
+
+
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="210dp"
+            >
+
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+
+                app:flipDuration="500"
+
+                app:flipEnabled="true"
+                app:flipOnTouch="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/t5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:layout_marginTop="48dp"
+                        android:text="shivam arora"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="joint cultural secretary"
+                        android:layout_gravity="center_horizontal"
+                        android:textAllCaps="true"
+                        android:textStyle="bold" android:textColor="#ffffff"
+android:id="@+id/t6"
+                        />
+
+                </LinearLayout>
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/i3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/nav" />
+
+
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="210dp">
+                <com.wajahatkarim3.easyflipview.EasyFlipView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+
+                    app:flipDuration="500"
+
+                    app:flipEnabled="true"
+                    app:flipOnTouch="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/t7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+
+                            android:layout_marginTop="48dp"
+                            android:text="jahnvi singh"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="joint cultural secretary"
+                            android:layout_gravity="center_horizontal"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:id="@+id/t8"
+                            />
+
+                    </LinearLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/i4"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/nav" />
+
+
+                </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="210dp">
+                <com.wajahatkarim3.easyflipview.EasyFlipView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+
+                    app:flipDuration="500"
+
+                    app:flipEnabled="true"
+                    app:flipOnTouch="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/t9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+
+                            android:layout_marginTop="48dp"
+                            android:text="utkarsh arora"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="joint cultural secretary"
+                            android:layout_gravity="center_horizontal"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:id="@+id/t10"
+                            />
+
+                    </LinearLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/i5"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/utkarsh" />
+
+
+                </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:id="@+id/hid"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="210dp">
+
+
+                <com.wajahatkarim3.easyflipview.EasyFlipView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+
+                    app:flipDuration="500"
+
+                    app:flipEnabled="true"
+                    app:flipOnTouch="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/t11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+
+                            android:layout_marginTop="48dp"
+                            android:text="navendu gupta"
+                            android:textAllCaps="true"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cultura secretary"
+                            android:layout_gravity="center_horizontal"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:id="@+id/t12"
+                            />
+
+                    </LinearLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/i6"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/nav" />
+
+
+                </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Cultural council"
+android:textColor="#ffffff"
+        android:onClick="cc"
+
+android:background="@color/colorPrimaryDark"
+        android:layout_weight="1"
+        />
+
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="core team"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:onClick="ct"
+        android:background="@color/colorPrimaryDark"
+        />
+</LinearLayout>
+
+
+    </LinearLayout>
