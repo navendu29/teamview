@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context="com.example.navendu.final2018.dteam">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cultural council"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:id="@+id/text"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+
+        />
+
+
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:id="@+id/engi_team_recycler_view"
+        android:fillViewport="true">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+
+
+
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cultural council"
+            android:textColor="#ffffff"
+            android:onClick="cc"
+
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="core team"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:onClick="ct"
+            android:background="@color/colorPrimaryDark"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
