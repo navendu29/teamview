@@ -1,27 +1,27 @@
 <resources>
     <string name="app_name">final2018</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
-  <string-array name="str">
+    <string-array name="str">
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-      <item></item>
+        <item></item>
 
-  </string-array>
+    </string-array>
     <string name="action_settings">Settings</string>
     <string name="title_activity_devteam">devteam</string>
     <string name="title_activity_events">events</string>
